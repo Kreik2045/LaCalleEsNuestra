@@ -551,3 +551,122 @@ mix-blend-mode:soft-light;
 pointer-events:none;
 z-index:-1;
 }
+
+/* ======================= */
+/* CARD HISTORIA */
+/* ======================= */
+
+.story-card{
+position:relative;
+height:260px;
+overflow:hidden;
+cursor:pointer;
+
+background:linear-gradient(
+135deg,
+rgba(152,54,190,0.28),
+rgba(30,28,49,0.65)
+);
+
+backdrop-filter:blur(6px);
+
+border:1px solid rgba(255,244,244,0.22);
+
+transition:.4s;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.story-card:hover{
+border:1px solid rgba(193,140,255,0.45);
+}
+
+.story-content{
+position:relative;
+text-align:center;
+padding:20px;
+max-width:280px;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+.story-icon{
+width:64px;
+height:64px;
+
+border-radius:50%;
+
+background:rgba(193,140,255,0.2);
+
+border:2px solid #C18CFF;
+
+display:flex;
+align-items:center;
+justify-content:center;
+transition:.3s;
+}
+
+.story-card:hover .story-icon{
+transform:scale(1.1);
+}
+
+.story-svg{
+width:30px;
+height:30px;
+stroke:#C18CFF;
+fill:none;
+stroke-width:2;
+}
+
+.story-title{
+font-size:28px;
+font-family:"Squid Boy",sans-serif;
+margin: 10px;
+margin-bottom:10px;
+margin-top: 20px;
+
+background:linear-gradient(
+#fff9f9,
+#C18CFF
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.story-text{
+font-size:14px;
+
+background:linear-gradient(
+rgba(255,249,249,0.8),
+rgba(193,140,255,0.6)
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+margin-bottom:18px;
+}
+
+.story-button-box{
+padding:10px 28px;
+
+border-radius:999px;
+
+background:rgba(193,140,255,0.2);
+
+border:1px solid #C18CFF;
+
+color:#E0B3FF;
+
+font-size:14px;
+font-weight:600;
+
+transition:.3s;
+}
+
+.story-card:hover .story-button-box{
+background:rgba(193,140,255,0.3);
+}
