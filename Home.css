@@ -237,6 +237,8 @@ opacity:0;
 transition:.3s;
 }
 
+
+
 .start-button:hover{
 border-color:#E0B3FF;
 }
@@ -453,12 +455,14 @@ background:linear-gradient(#fff9f9,#C18CFF);
 
 .comic-tag{
 padding:6px 16px;
+height: 40%;
 border-radius:999px;
 background:rgba(193,140,255,0.2);
 border:1px solid #C18CFF;
 color:#C18CFF;
 font-size:12px;
 font-weight:600;
+align-content: center;
 }
 
 .comic-image-box{
@@ -670,3 +674,5 @@ transition:.3s;
 .story-card:hover .story-button-box{
 background:rgba(193,140,255,0.3);
 }
+
+.start-button:hover{ background:#C18CFF; box-shadow:0 0 40px rgba(193,140,255,0.7); }

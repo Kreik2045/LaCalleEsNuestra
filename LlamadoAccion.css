@@ -1,0 +1,383 @@
+body{
+margin:0;
+font-family:"Squid Boy", sans-serif;
+background:#0a0514;
+color:white;
+}
+
+/* FONDO */
+
+.background{
+position:fixed;
+inset:0;
+
+background:
+linear-gradient(#371b68,#1b0e27,#2f2067);
+
+z-index:-3;
+}
+
+/* NAV */
+
+.top-nav{
+display:flex;
+justify-content:center;
+margin-top:60px;
+}
+
+/* CONTENEDOR */
+
+.back-container{
+
+backdrop-filter: blur(12px);
+
+background: linear-gradient(
+to right,
+rgba(203,128,237,0.1),
+rgba(123,102,140,0.08)
+);
+
+border-radius: 51px;
+
+padding: 18px 32px;
+
+/* padding-right: 50%; esto solo en caso que andrea quiera extenderlo mas el boton de volver*/
+
+border: 1px solid rgba(193,140,255,0.15);
+
+display: inline-block;
+
+}
+
+
+/* BOTON */
+
+.back-button{
+
+display:flex;
+align-items:center;
+gap:12px;
+
+background:none;
+border:none;
+
+color:#C18CFF;
+
+cursor:pointer;
+
+transition:color .3s;
+
+}
+
+.back-button:hover{
+
+color:#E0B3FF;
+
+}
+
+
+/* ICONO */
+
+.back-icon{
+
+width:40px;
+height:40px;
+
+border-radius:50%;
+
+background:rgba(193,140,255,0.15);
+
+border:1px solid #C18CFF;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+transition:.3s;
+
+}
+
+.back-button:hover .back-icon{
+
+background:rgba(193,140,255,0.25);
+
+}
+
+
+/* SVG */
+
+.arrow-icon{
+
+width:20px;
+height:20px;
+
+stroke:currentColor;
+fill:none;
+stroke-width:2;
+
+}
+
+
+/* TEXTO */
+
+.back-text{
+
+font-size:18px;
+font-weight:600;
+letter-spacing:1px;
+
+font-family:"Squid Boy", sans-serif;
+
+}
+
+/* LAYOUT */
+
+.main-container{
+max-width:1400px;
+margin:auto;
+padding:80px;
+}
+
+.grid-layout{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+}
+
+/* HEADER */
+
+.form-header{
+text-align:center;
+margin-bottom:40px;
+}
+
+.header-pill{
+display:inline-flex;
+align-items:center;
+gap:10px;
+
+padding:10px 24px;
+
+border-radius:999px;
+
+background:rgba(193,140,255,0.15);
+
+border:1px solid #C18CFF;
+
+margin-bottom:20px;
+}
+
+.pill-icon{
+width:20px;
+stroke:#C18CFF;
+fill:none;
+stroke-width:2;
+}
+
+.main-title{
+font-family:"Squid Boy";
+font-size:56px;
+
+background:linear-gradient(#E0B3FF,#8B5CF6,#6B4FFF);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+margin-bottom:20px;
+}
+
+.main-description{
+max-width:500px;
+margin:auto;
+opacity:0.9;
+}
+
+/* FORM */
+
+.story-form{
+
+padding:40px;
+
+border-radius:32px;
+
+background:linear-gradient(
+135deg,
+rgba(71,33,137,0.4),
+rgba(30,28,49,0.6)
+);
+
+border:1px solid rgba(193,140,255,0.25);
+}
+
+.form-group{
+margin-bottom:24px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.form-group label{
+color:#C18CFF;
+font-weight:bold;
+}
+
+.form-group input,
+.form-group textarea{
+
+padding:16px;
+
+border-radius:18px;
+
+background:rgba(10,5,20,0.6);
+
+border:1px solid rgba(193,140,255,0.3);
+
+color:white;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+
+outline:none;
+
+border:1px solid #C18CFF;
+}
+
+/* CHECKBOX */
+
+.checkbox-group{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:20px;
+}
+
+/* BOTON */
+
+.submit-button{
+
+width:100%;
+
+padding:18px;
+
+border-radius:20px;
+
+border:2px solid #C18CFF;
+
+background:linear-gradient(
+to right,
+rgba(132,26,246,0.3),
+rgba(200,138,255,0.3)
+);
+
+color:white;
+
+font-family:"Squid Boy";
+font-size:18px;
+
+cursor:pointer;
+transition:.3s;
+}
+
+.submit-button:hover{
+border-color:#E0B3FF;
+box-shadow:0 0 30px rgba(193,140,255,0.6);
+}
+
+.privacy-text{
+font-size:12px;
+opacity:.7;
+text-align:center;
+margin-top:10px;
+}
+
+/* DERECHA */
+
+.stats-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+margin-bottom:30px;
+}
+
+.stat-card{
+
+padding:30px;
+
+border-radius:24px;
+
+background:linear-gradient(
+135deg,
+rgba(152,54,190,0.3),
+rgba(30,28,49,0.5)
+);
+
+border:1px solid rgba(193,140,255,0.25);
+
+text-align:center;
+}
+
+.stat-number{
+font-size:36px;
+color:#C18CFF;
+font-family:"Squid Boy";
+}
+
+.stat-label{
+font-size:14px;
+opacity:.8;
+}
+
+/* COMMUNITY CARD */
+
+.community-card{
+
+height:260px;
+
+border-radius:32px;
+
+background:linear-gradient(
+to top,
+rgba(71,33,137,0.9),
+transparent
+);
+
+border:2px solid rgba(193,140,255,0.3);
+
+display:flex;
+align-items:flex-end;
+
+padding:30px;
+
+margin-bottom:30px;
+}
+
+.community-text h3{
+font-family:"Squid Boy";
+font-size:30px;
+}
+
+/* INFO */
+
+.info-card{
+
+padding:24px;
+
+border-radius:24px;
+
+background:linear-gradient(
+135deg,
+rgba(71,33,137,0.3),
+rgba(30,28,49,0.5)
+);
+
+border:1px solid rgba(193,140,255,0.2);
+
+margin-bottom:16px;
+}
+
+.info-card h4{
+color:#C18CFF;
+font-family:"Squid Boy";
+}
+
