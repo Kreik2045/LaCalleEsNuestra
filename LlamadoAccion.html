@@ -49,20 +49,21 @@
 
 <div class="form-header">
 
-<div class="header-pill">
+<div class="voice-badge">
 
-<svg viewBox="0 0 24 24" class="pill-icon">
-<path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-</svg>
+    <svg viewBox="0 0 24 24" class="voice-icon">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
 
-<span>COMPARTE TU VOZ</span>
+    <span class="voice-text">COMPARTE TU VOZ</span>
 
 </div>
 
-<h1 class="main-title">SUMA TU HISTORIA</h1>
+<h1 class="story-title"> SUMA TU HISTORIA </h1>
 
-<p class="main-description">
-Tu experiencia puede ayudar a otras personas. Comparte tu historia de manera segura y anónima.
+<p class="story-description">
+Tu experiencia puede ayudar a otras personas. 
+Comparte tu historia de manera segura y anónima.
 </p>
 
 </div>
@@ -72,45 +73,58 @@ Tu experiencia puede ayudar a otras personas. Comparte tu historia de manera seg
 
 <div class="story-form">
 
-<div class="form-group">
+    <form>
 
-<label>NOMBRE (opcional)</label>
+        <div class="form-group">
 
-<input type="text" placeholder="Puedes usar un alias o dejar en blanco">
+            <label>NOMBRE (opcional)</label>
 
-</div>
+            <input 
+            type="text" 
+            placeholder="Puedes usar un alias o dejar en blanco">
 
-
-<div class="form-group">
-
-<label>TU HISTORIA</label>
-
-<textarea rows="6"
-placeholder="Comparte tu experiencia. Tu voz importa y puede ayudar a crear conciencia..."></textarea>
-
-</div>
+        </div>
 
 
-<div class="checkbox-group">
+        <div class="form-group">
 
-<input type="checkbox" id="anon">
+            <label>TU HISTORIA</label>
 
-<label for="anon">
-Mantener mi historia completamente anónima
-</label>
+            <textarea 
+            rows="6"
+            placeholder="Comparte tu experiencia. Tu voz importa y puede ayudar a crear conciencia..."></textarea>
 
-</div>
+        </div>
 
 
-<button class="submit-button">
+        <div class="anonymous-box">
 
-<span>COMPARTIR HISTORIA</span>
+            <input type="checkbox" id="anonymous">
 
-</button>
+            <label for="anonymous">
+            Mantener mi historia completamente anónima
+            </label>
 
-<p class="privacy-text">
-Tu privacidad es importante. Todas las historias son revisadas antes de ser publicadas.
-</p>
+        </div>
+
+
+        <button class="submit-story">
+
+            <svg viewBox="0 0 24 24" class="send-icon">
+                <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/>
+                <path d="M21.854 2.147l-10.94 10.939"/>
+            </svg>
+
+            <span>COMPARTIR HISTORIA</span>
+
+        </button>
+
+
+        <p class="privacy-text">
+        Tu privacidad es importante. Todas las historias son revisadas antes de ser publicadas y puedes elegir permanecer anónimo/a.
+        </p>
+
+    </form>
 
 </div>
 
@@ -127,16 +141,40 @@ Tu privacidad es importante. Todas las historias son revisadas antes de ser publ
 
 <div class="stat-card">
 
-<div class="stat-number">1,247</div>
-<div class="stat-label">Historias Compartidas</div>
+    <div class="stat-icon">
+
+        <svg viewBox="0 0 24 24" class="stat-svg">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+
+    </div>
+
+    <div class="stat-number">1,247</div>
+
+    <div class="stat-label">Historias Compartidas</div>
 
 </div>
 
 
 <div class="stat-card">
 
-<div class="stat-number">15K</div>
-<div class="stat-label">Voces Solidarias</div>
+    <div class="stat-icon">
+
+        <svg viewBox="0 0 24 24" class="stat-svg">
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3
+            c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2
+            A5.5 5.5 0 0 0 2 8.5
+            c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+        </svg>
+
+    </div>
+
+    <div class="stat-number">15K</div>
+
+    <div class="stat-label">Voces Solidarias</div>
 
 </div>
 
@@ -145,31 +183,42 @@ Tu privacidad es importante. Todas las historias son revisadas antes de ser publ
 
 <div class="community-card">
 
-<div class="community-text">
+    <img src="Images/placeholdervideo.png" alt="Community illustration" class="community-image">
 
-<h3>JUNTAS SOMOS MÁS FUERTES</h3>
+    <div class="community-overlay"></div>
 
-<p>
-Cada historia compartida nos acerca a un espacio público más seguro y respetuoso.
-</p>
+    <div class="community-content">
 
-</div>
+        <h3 class="community-title">
+            JUNTAS SOMOS MÁS FUERTES
+        </h3>
 
-</div>
+        <p class="community-text">
+        Cada historia compartida nos acerca a un espacio público más seguro 
+        y respetuoso para todas las personas.
+        </p>
 
-
-<div class="info-card">
-
-<h4>¿Por qué compartir?</h4>
-
-<p>
-Al compartir tu experiencia ayudas a visibilizar el problema del acoso callejero.
-</p>
+    </div>
 
 </div>
 
 
 <div class="info-card">
+
+    <h4 class="info-title">
+        ¿Por qué compartir?
+    </h4>
+
+    <p class="info-text">
+        Al compartir tu experiencia, ayudas a visibilizar el problema del 
+        acoso callejero y contribuyes a crear conciencia colectiva. 
+        Tu voz puede inspirar cambios reales.
+    </p>
+
+</div>
+
+
+<!-- <div class="info-card">
 
 <h4>Tu seguridad primero</h4>
 
@@ -177,6 +226,16 @@ Al compartir tu experiencia ayudas a visibilizar el problema del acoso callejero
 Puedes elegir ser anónima/o. Este es un espacio seguro para tu voz.
 </p>
 
+</div> -->
+
+<div class="info-card">
+
+    <h4 class="info-title">
+        Tu seguridad primero
+    </h4>
+
+    <p class="info-text">
+        Todas las historias son moderadas. Puedes elegir ser anónima/o y no compartimos ningún dato personal. Este es un espacio seguro para tu voz.    </p>
 </div>
 
 </div>
