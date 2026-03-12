@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruta Interactiva</title>
+<link rel="stylesheet" href="RutaInteractiva.css">
+</head>
+
+<body>
+
+<div class="ruta-container">
+
+    <!-- FONDO -->
+    <div class="background-gradient"></div>
+
+    <div class="ruta-content">
+
+        <!-- BOTON VOLVER -->
+        <div class="volver-container">
+
+            <button class="btn-volver">
+
+                <svg class="icon-volver" viewBox="0 0 24 24">
+                    <path d="m12 19-7-7 7-7"></path>
+                    <path d="M19 12H5"></path>
+                </svg>
+
+                <span class="texto-volver">VOLVER</span>
+
+            </button>
+
+        </div>
+
+        <!-- TITULO -->
+        <div class="ruta-header">
+
+            <h1 class="titulo-ruta">
+                RUTA INTERACTIVA
+            </h1>
+
+            <p class="descripcion-ruta">
+                Ingresa tu ubicación y descubre la mejor ruta para tu seguridad
+            </p>
+
+        </div>
+
+        <!-- GRID PRINCIPAL -->
+        <div class="ruta-grid">
+
+            <!-- PANEL IZQUIERDO -->
+            <div class="panel-ruta">
+
+                <div class="panel-header">
+
+                    <div class="panel-header-top">
+
+                        <div class="panel-dot"></div>
+
+                        <h3 class="panel-titulo">
+                            PLANIFICA TU RUTA
+                        </h3>
+
+                    </div>
+
+                    <div class="panel-linea"></div>
+
+                </div>
+
+<!--                 <div class="input-grupo">
+                    <label>PUNTO DE INICIO</label>
+                    <input type="text" placeholder="Ej. Avenida Reforma 123">
+                </div>
+
+                <div class="input-grupo">
+                    <label>PUNTO DE DESTINO</label>
+                    <input type="text" placeholder="Ej. Parque Chapultepec">
+                </div> -->
+
+                <div class="form-ruta">
+
+                    <!-- INICIO -->
+                    <div class="campo-ruta">
+
+                        <label class="label-ruta">
+                            PUNTO DE INICIO
+                        </label>
+
+                        <div class="input-icon">
+
+                            <svg class="icon-input inicio" viewBox="0 0 24 24">
+                                <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+
+                            <input
+                            type="text"
+                            placeholder="Ej. Avenida Reforma 123"
+                            class="input-ruta">
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- DESTINO -->
+                    <div class="campo-ruta">
+
+                        <label class="label-ruta">
+                            PUNTO DE DESTINO
+                        </label>
+
+                        <div class="input-icon">
+
+                            <svg class="icon-input destino" viewBox="0 0 24 24">
+                                <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+
+                            <input
+                            type="text"
+                            placeholder="Ej. Parque Chapultepec"
+                            class="input-ruta destino-input">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="personaje">
+                    <img src="personaje.png">
+                </div>
+
+                <div class="botones-ruta">
+
+                    <button class="btn-animacion">
+                        VER ANIMACIÓN
+                    </button>
+
+                    <button class="btn-inicio">
+                        VOLVER A INICIO
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PANEL MAPA -->
+            <div class="panel-mapa">
+
+                <h3 class="mapa-titulo">
+                    MAPA INTERACTIVO DE RUTA SEGURA
+                </h3>
+
+                <div class="mapa-contenedor">
+
+                    <svg viewBox="0 0 800 700" class="mapa-svg">
+
+                        <path
+                        d="M150 550 Q200 480 250 450 T350 380 Q420 340 480 300 T580 200 Q620 150 650 120"
+                        class="ruta-linea"/>
+
+                    </svg>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
