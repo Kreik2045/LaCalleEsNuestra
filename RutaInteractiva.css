@@ -10,6 +10,147 @@ color:white;
 
 /* CONTENEDOR PRINCIPAL */
 
+/* CONTENEDOR FORM */
+
+.form-ruta{
+
+display:flex;
+flex-direction:column;
+
+gap:24px;
+
+margin-bottom:32px;
+
+}
+
+
+/* CADA CAMPO */
+
+.campo-ruta{
+
+display:flex;
+flex-direction:column;
+
+}
+
+
+/* LABEL */
+
+.label-ruta{
+
+margin-bottom:12px;
+
+font-size:14px;
+
+font-weight:600;
+
+letter-spacing:1px;
+
+font-family:"Squid Boy", sans-serif;
+
+color:#DC2626;
+
+text-shadow:0 0 15px rgba(220,38,38,0.4);
+
+}
+
+
+/* INPUT CON ICONO */
+
+.input-icon{
+
+position:relative;
+
+}
+
+
+/* INPUT */
+
+.input-ruta{
+
+width:85%;
+
+padding:16px 16px 16px 48px;
+
+border-radius:16px;
+
+background:rgba(10,5,20,0.6);
+
+border:1px solid rgba(193,140,255,0.25);
+
+color:white;
+
+font-family:"Squid Boy", sans-serif;
+
+outline:none;
+
+transition:all .3s;
+
+}
+
+
+/* PLACEHOLDER */
+
+.input-ruta::placeholder{
+
+color:rgba(193,140,255,0.5);
+
+}
+
+
+/* ICONO */
+
+.icon-input{
+
+position:absolute;
+
+left:16px;
+top:50%;
+
+transform:translateY(-50%);
+
+width:20px;
+height:20px;
+
+stroke-width:2;
+
+fill:none;
+
+}
+
+
+/* COLOR ICONOS */
+
+.icon-input.inicio{
+stroke:#C18CFF;
+}
+
+.icon-input.destino{
+stroke:#DC2626;
+}
+
+
+/* FOCUS INPUT */
+
+.input-ruta:focus{
+
+border:1px solid #C18CFF;
+
+box-shadow:0 0 0 2px rgba(193,140,255,0.3);
+
+}
+
+
+/* DESTINO FOCUS */
+
+.destino-input:focus{
+
+border:1px solid #DC2626;
+
+box-shadow:0 0 0 2px rgba(220,38,38,0.3);
+
+}
+
 .ruta-container{
 
 position:relative;
@@ -365,15 +506,27 @@ outline:none;
 
 /* PERSONAJE */
 
-.personaje{
-
+.descarga{
 text-align:center;
-
-margin:20px 0;
-
+padding: 16px;
+border-radius: 16px;
+background: rgba(10, 5, 20, 0.6);
+border: 1px solid rgba(193, 140, 255, 0.25);
+color: white;
+font-family: "Squid Boy", sans-serif;
+margin:0px 0px 24px 0px;
 }
 
-.personaje img{
+.descripcion-descarga{
+   color:rgba(193,140,255,0.6); 
+}
+
+.descripcion-descargados{
+    color:rgba(193,140,255,0.6); 
+    text-decoration: underline;
+} 
+
+.descarga img{
 width:120px;
 }
 
