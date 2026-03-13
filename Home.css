@@ -676,3 +676,66 @@ background:rgba(193,140,255,0.3);
 }
 
 .start-button:hover{ background:#C18CFF; box-shadow:0 0 40px rgba(193,140,255,0.7); }
+
+/* ========================= */
+/* RESPONSIVE CELULAR */
+/* ========================= */
+
+@media (max-width: 900px){
+
+.main-layout{
+padding:20px;
+}
+
+/* layout vertical */
+
+.layout-grid{
+grid-template-columns:1fr;
+gap:20px;
+}
+
+/* hero */
+
+.hero-box{
+padding:30px;
+}
+
+.hero-title{
+max-width:280px;
+}
+
+/* botón */
+
+.start-button{
+padding:16px 40px;
+}
+
+.start-text{
+font-size:20px;
+}
+
+/* navbar */
+
+.nav-container{
+padding:0 20px;
+}
+
+.nav-left{
+gap:16px;
+}
+
+/* cards */
+
+.animation-card{
+height:auto;
+}
+
+.comic-card{
+height:auto;
+}
+
+.story-card{
+height:auto;
+}
+
+}
