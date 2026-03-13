@@ -4,3 +4,10 @@ Puntos que me faltan por terminar
 2. En la ruta interactiva, que la imagen no se sobreponga encima de todo, si no que solo abarque cierta parte de el div y debajo de esta estén los puntos de referencia (puntos de ayuda, zonas seguras, etc), así mismo poner una simulacion de camara
 3. Terminar la pagina de comic
 4. Terinar la pagina de animación
+
+NOTAS
+
+13/03/2026
+
+La responsividad de la pagina home funciona, he acomodado todos los botones para que estos no sobresalgan y se vean bien desde 
+un dispositivo movil, la unica cosa a pensar a futuro es si realmente se debería ajustar igual al mockup (HERO enorme y menu hamburguesa)
