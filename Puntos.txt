@@ -11,3 +11,4 @@ NOTAS
 
 La responsividad de la pagina home funciona, he acomodado todos los botones para que estos no sobresalgan y se vean bien desde 
 un dispositivo movil, la unica cosa a pensar a futuro es si realmente se debería ajustar igual al mockup (HERO enorme y menu hamburguesa)
+2.Nmms por que se ve raro los iconos de planifica tu ruta en iphone 11 jajajaja
