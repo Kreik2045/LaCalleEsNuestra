@@ -276,6 +276,17 @@ border:1px solid #C18CFF;
 box-shadow:0 0 30px rgba(193,140,255,0.5);
 }
 
+.icono-play{
+
+width:24px;
+height:24px;
+
+stroke:#C18CFF;
+fill:none;
+
+stroke-width:2;
+
+}
 
 /* ======================= */
 /* CARD ANIMACION */
@@ -283,7 +294,7 @@ box-shadow:0 0 30px rgba(193,140,255,0.5);
 
 .animation-card{
 position:relative;
-height:280px;
+/* height:280px; */
 overflow:hidden;
 cursor:pointer;
 background:linear-gradient(
@@ -327,7 +338,7 @@ flex-direction:column;
 display:flex;
 align-items:center;
 gap:12px;
-margin-bottom:16px;
+/* margin-bottom:16px; */
 }
 
 .icon-circle{
@@ -375,6 +386,9 @@ justify-content:center;
 }
 
 .play-circle{
+display: flex;
+justify-content: center;
+align-items: center;
 width:48px;
 height:48px;
 border-radius:50%;
