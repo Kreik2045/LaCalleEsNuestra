@@ -162,6 +162,7 @@ border:1px solid rgba(193,140,255,0.15);
 }
 
 .hero-title{
+height: 600px;
 width:100%;
 max-width:600px;
 object-fit:contain;
@@ -778,6 +779,13 @@ padding:30px;
 
 .hero-title{
 max-width:280px;
+}
+.hero-title {
+width: 280px;
+max-width: 280px;
+height: 100px;
+object-fit: contain;
+filter: drop-shadow(0 0 30px rgba(193, 140, 255, 0.5));
 }
 
 /* botón */

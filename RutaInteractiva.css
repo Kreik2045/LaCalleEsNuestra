@@ -1207,8 +1207,9 @@ font-size:16px;
 }
 
 .input-ruta {
-    /* width: 85%; */
-    padding: 16px 16px 16px 16px;
+width: 72%;
+/* padding:16px 16px 16px 48px;
+ */
     border-radius: 16px;
     background: rgba(10, 5, 20, 0.6);
     border: 1px solid rgba(193, 140, 255, 0.25);
