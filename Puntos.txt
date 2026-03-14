@@ -9,6 +9,9 @@ NOTAS
 
 13/03/2026
 
-La responsividad de la pagina home funciona, he acomodado todos los botones para que estos no sobresalgan y se vean bien desde 
+1.La responsividad de la pagina home funciona, he acomodado todos los botones para que estos no sobresalgan y se vean bien desde 
 un dispositivo movil, la unica cosa a pensar a futuro es si realmente se debería ajustar igual al mockup (HERO enorme y menu hamburguesa)
 2.Nmms por que se ve raro los iconos de planifica tu ruta en iphone 11 jajajaja
+3. Chingo a su madre la responsividad
+4. Ya no chingo a su madre la responsividad, lo arreglé
+5. Falta la responsividad de la pagina Comic y de Historia, también la segunda pagina de el mapa
