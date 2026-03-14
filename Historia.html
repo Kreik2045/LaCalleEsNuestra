@@ -14,25 +14,27 @@
     <div class="fondo"></div>
 
     <!-- NAV -->
-    <nav class="nav">
-        <div class="nav-container">
+    <nav class="top-nav">
 
-            <button class="boton-volver">
+    <div class="back-container">
 
-                <div class="icono-volver">
-                    <svg viewBox="0 0 24 24">
-                        <path d="m12 19-7-7 7-7"></path>
-                        <path d="M19 12H5"></path>
-                    </svg>
-                </div>
+        <button class="back-button" onclick="window.location.href='Home.html'" style="cursor:pointer;">
 
-                <span class="texto-volver">
-                    VOLVER
-                </span>
+            <div class="back-icon">
 
-            </button>
+                <svg viewBox="0 0 24 24" class="arrow-icon">
+                    <path d="M12 19L5 12L12 5"></path>
+                    <path d="M19 12H5"></path>
+                </svg>
 
-        </div>
+            </div>
+
+            <span class="back-text">VOLVER</span>
+
+        </button>
+
+    </div>
+
     </nav>
 
     <!-- CONTENIDO -->
@@ -104,33 +106,54 @@
             </div>
 
 
-                <div class="video-container">
+            <div class="video-card">
 
-                    <img src="video-preview.jpg" class="video-fondo">
+                <!-- fondo -->
+                <div class="video-fondo">
 
-                    <div class="play-centro">
+                    <img src="./Images/placeholdervideo.png" alt="Video background">
+
+                </div>
+
+
+                <!-- boton play -->
+                <div class="video-centro">
+
+                    <div class="play-wrapper">
 
                         <div class="play-boton">
 
-                            <svg viewBox="0 0 24 24">
+                            <svg class="icono-play" viewBox="0 0 24 24">
                                 <polygon points="6 3 20 12 6 21 6 3"></polygon>
                             </svg>
 
                         </div>
+
+                        <div class="ping"></div>
 
                     </div>
 
                 </div>
 
 
+                <!-- sombra interna -->
+                <div class="sombra-interna"></div>
+
+                <!-- glow externo -->
+                <div class="glow"></div>
+
+            </div>
+
+
                 <div class="info-video">
 
-                    <p>
-                        Acompaña a nuestra protagonista en su día a día y aprende
-                        a identificar señales de acoso callejero.
+                    <p class="texto-info">
+                        Acompaña a nuestra protagonista en su día a día y aprende a identificar
+                        las señales de acoso callejero. Esta animación te mostrará situaciones
+                        reales presentadas de manera educativa y empática.
                     </p>
 
-                    <div class="botones">
+                    <div class="botones-video">
 
                         <button class="btn-ver">
                             VER AHORA
