@@ -23,7 +23,7 @@
 
             <div class="nav-barra">
 
-                <button class="btn-volver">
+                <button class="btn-volver" onclick="window.location.href='Home.html'" style="cursor:pointer;">
 
                     <div class="icono-volver">
                         <svg viewBox="0 0 24 24">
@@ -61,10 +61,10 @@
         <h1 class="titulo-principal">
             HISTORIAS REALES
         </h1>
+        
         <p class="descripcion-comic">
             Experiencias reales transformadas en arte visual.
-            Cada viñeta cuenta una historia de resistencia
-            y empoderamiento.
+            Cada viñeta cuenta una historia de resistencia y empoderamiento.
         </p>
 
     </div>
@@ -78,9 +78,30 @@
 
             <img src="Images/jejefunkinpqesmiinsigniajejejejebfchistoso.jpg" alt="Comic">
 
-            <button class="btn-leer">
-                LEER HISTORIA COMPLETA
-            </button>
+            <div class="contenedor-boton-comic">
+
+                <button class="btn-leer-historia">
+
+                    <div class="btn-gradiente"></div>
+
+                    <div class="btn-contenido">
+
+                        <svg class="icono-ojo" viewBox="0 0 24 24">
+                            <path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+
+                        <span class="texto-boton">
+                            LEER HISTORIA COMPLETA
+                        </span>
+
+                    </div>
+
+                    <div class="btn-sombra"></div>
+
+                </button>
+
+            </div>
 
         </div>
 
@@ -91,51 +112,87 @@
 
     <div class="acciones-comic">
 
-        <button class="accion-btn">
-            Más Comics
+        <button class="btn-accion">
+
+            <div class="icono-accion">
+                <!-- icono -->
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 7v14"></path>
+                    <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
+                </svg>
+            </div>
+
+            <span>Más Comics</span>
+
         </button>
 
-        <button class="accion-btn">
-            Descargar
+
+        <button class="btn-accion">
+
+            <div class="icono-accion">
+                <svg viewBox="0 0 24 24">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" x2="12" y1="15" y2="3"></line>
+                </svg>
+            </div>
+
+            <span>Descargar</span>
+
         </button>
 
-        <button class="accion-btn">
-            Comparte tu historia
+
+        <button class="btn-accion">
+
+            <div class="icono-accion">
+                <svg viewBox="0 0 24 24">
+                    <circle cx="18" cy="5" r="3"></circle>
+                    <circle cx="6" cy="12" r="3"></circle>
+                    <circle cx="18" cy="19" r="3"></circle>
+                    <line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line>
+                    <line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line>
+                </svg>
+            </div>
+
+            <span>Comparte tu historia</span>
+
         </button>
 
     </div>
-
 
     <!-- TARJETAS INFORMATIVAS -->
 
-    <div class="info-comic">
+        <div class="info-comic">
 
-        <div class="info-card">
+            <div class="tarjeta-info">
 
-            <h3>Sobre el Cómic</h3>
+                <h3 class="titulo-info">
+                    Sobre el Cómic
+                </h3>
 
-            <p>
-            Esta ilustración forma parte de una serie de comics
-            creados para visibilizar las experiencias de
-            acoso callejero.
-            </p>
+                <p class="texto-info">
+                    Esta ilustración forma parte de una serie de comics creados para
+                    visibilizar las experiencias de acoso callejero. Cada panel
+                    representa situaciones reales compartidas por la comunidad.
+                </p>
+
+            </div>
+
+
+            <div class="tarjeta-info">
+
+                <h3 class="titulo-info">
+                    Impacto Visual
+                </h3>
+
+                <p class="texto-info">
+                    El arte permite procesar experiencias difíciles de una manera
+                    accesible. Estas historias visuales generan empatía y conciencia
+                    sobre el acoso callejero.
+                </p>
+
+            </div>
 
         </div>
-
-        <div class="info-card">
-
-            <h3>Impacto Visual</h3>
-
-            <p>
-            El arte permite procesar experiencias difíciles
-            de una manera accesible y generar empatía
-            sobre el acoso callejero.
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
 </body>
 </html>
